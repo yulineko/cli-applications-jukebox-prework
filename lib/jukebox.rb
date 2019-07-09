@@ -54,6 +54,8 @@ def run
         play
       when "exit"
         exit_jukebox
+      else 
+        
     end
   end
 end
