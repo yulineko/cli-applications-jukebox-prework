@@ -46,6 +46,8 @@ def run
   
   while input != "exit" 
     case input
+      
+    end
   end
 end
 
