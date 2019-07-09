@@ -46,7 +46,10 @@ def run
   
   while input != "exit" 
     case input
-      
+      when "help"
+      when "list"
+      when "play"
+      when "exit"
     end
   end
 end
