@@ -29,7 +29,7 @@ def play(songs)
   if chosen_song == nil
     puts "Invalid input, please try again"
   else 
-    
+    puts ""
   end
 end
 
