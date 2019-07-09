@@ -26,7 +26,7 @@ def play(songs)
     end
   end
   
-  if chosen_song = nil
+  if chosen_song == nil
     
   end
 end
