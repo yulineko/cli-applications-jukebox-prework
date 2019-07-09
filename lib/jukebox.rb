@@ -45,7 +45,7 @@ def run
   input = gets.chomp
   
   while input != "exit" 
-    case 
+    case input
   end
 end
 
