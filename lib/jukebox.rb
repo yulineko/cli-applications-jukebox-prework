@@ -22,7 +22,7 @@ def play(songs)
   
   songs.each_with_index do |song, index|
     if input == song 
-      
+      chosen_song = song
     end
   end
 end
