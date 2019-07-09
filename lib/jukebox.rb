@@ -47,9 +47,13 @@ def run
   while input != "exit" 
     case input
       when "help"
+        help
       when "list"
+        list
       when "play"
+        play
       when "exit"
+        exit_jukebox
     end
   end
 end
