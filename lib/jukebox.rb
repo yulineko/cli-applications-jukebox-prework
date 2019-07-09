@@ -20,5 +20,7 @@ def play(songs)
   
   chosen_song = nil 
   
-  
+  songs.each_with_index do |song, index|
+    
+  end
 end
