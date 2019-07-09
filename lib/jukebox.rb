@@ -55,7 +55,8 @@ def run
       when "exit"
         exit_jukebox
       else 
-        
+        puts "Invalid input, please try again:"
+        input = gets.chomp
     end
   end
 end
