@@ -52,13 +52,12 @@ def run
         list
       when "play"
         play
-      when "exit"
-        exit_jukebox
       else 
         puts "Invalid input, please try again:"
         input = gets.chomp
     end
   end
+  exit_jukebox
 end
 
 
