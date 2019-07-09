@@ -48,12 +48,18 @@ def run
     case input
       when "help"
         help
+        puts "Please enter a command:"
+        input = gets.chomp
       when "list"
         list
       when "play"
         play
+        puts "Please enter a command:"
+        input = gets.chomp
       when "exit"
         exit_jukebox
+        puts "Please enter a command:"
+        input = gets.chomp
       else 
         puts "Invalid input, please try again:"
         input = gets.chomp
